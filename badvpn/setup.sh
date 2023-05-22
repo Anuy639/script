@@ -5,12 +5,12 @@ chmod +x /usr/sbin/badvpn > /dev/null 2>&1
 wget -q -O /etc/systemd/system/badvpn1.service "${REPO}badvpn/badvpn1.service" >/dev/null 2>&1
 wget -q -O /etc/systemd/system/badvpn2.service "${REPO}badvpn/badvpn2.service" >/dev/null 2>&1
 wget -q -O /etc/systemd/system/badvpn3.service "${REPO}badvpn/badvpn3.service" >/dev/null 2>&1
-wget -q -O /etc/systemd/system/badvpn1.service "${REPO}badvpn/badvpn4.service" >/dev/null 2>&1
-wget -q -O /etc/systemd/system/badvpn1.service "${REPO}badvpn/badvpn5.service" >/dev/null 2>&1
-wget -q -O /etc/systemd/system/badvpn1.service "${REPO}badvpn/badvpn6.service" >/dev/null 2>&1
-wget -q -O /etc/systemd/system/badvpn1.service "${REPO}badvpn/badvpn7.service" >/dev/null 2>&1
-wget -q -O /etc/systemd/system/badvpn1.service "${REPO}badvpn/badvpn8.service" >/dev/null 2>&1
-wget -q -O /etc/systemd/system/badvpn1.service "${REPO}badvpn/badvpn9.service" >/dev/null 2>&1
+wget -q -O /etc/systemd/system/badvpn4.service "${REPO}badvpn/badvpn4.service" >/dev/null 2>&1
+wget -q -O /etc/systemd/system/badvpn5.service "${REPO}badvpn/badvpn5.service" >/dev/null 2>&1
+wget -q -O /etc/systemd/system/badvpn6.service "${REPO}badvpn/badvpn6.service" >/dev/null 2>&1
+wget -q -O /etc/systemd/system/badvpn7.service "${REPO}badvpn/badvpn7.service" >/dev/null 2>&1
+wget -q -O /etc/systemd/system/badvpn8.service "${REPO}badvpn/badvpn8.service" >/dev/null 2>&1
+wget -q -O /etc/systemd/system/badvpn9.service "${REPO}badvpn/badvpn9.service" >/dev/null 2>&1
 systemctl disable badvpn1 
 systemctl stop badvpn1 
 systemctl enable badvpn1
